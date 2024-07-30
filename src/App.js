@@ -8,7 +8,7 @@ function App() {
     // ne pas utiliser <a></a> pour les paragraphes.
 
     <div>
-      <header id='App-Header' className='flex flex-row justify-around mt-3 '>
+      <header id='App-Header' className='m-10 flex flex-row justify-around mt-3 '>
         <p className='text-lg mt-2'>SessionSmash</p>
         <div className='flex flex-row w-7/12 bg-gray-300 rounded-xl pl-2'>
           <button className='size-8 mt-1 pr-3'>
@@ -23,8 +23,8 @@ function App() {
         </div>
       </header>
       {/* La partie ou y a les filtres a gauche et les sessions a droite */}
-      <div class="m-8 w-1/6" >  
-        <div>
+      <div class="flex flex-row">  
+        <div class="m-8 w-1/6">
           <p>Filtres de recherche</p>
           <br />
           <div class="flex flex-col gap-8"> 
@@ -69,10 +69,10 @@ function App() {
         </div>
         <br />
         {/* Petit espace pour pas se perdre */}
-      </div>
-      <div>
+        <div>
           <p>Sessions proche</p>
         </div>
+      </div>
     </div>
   );
 }
