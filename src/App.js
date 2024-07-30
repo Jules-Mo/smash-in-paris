@@ -69,10 +69,10 @@ function App() {
         </div>
         <br />
         {/* Petit espace pour pas se perdre */}
-        <div>
+      </div>
+      <div>
           <p>Sessions proche</p>
         </div>
-      </div>
     </div>
   );
 }
